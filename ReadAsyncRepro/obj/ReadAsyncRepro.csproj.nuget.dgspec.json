@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj",
+        "projectName": "ReadAsyncRepro",
+        "projectPath": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\NuGet.Config",
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://f.feedz.io/davidfowl/bedrockframework/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Bedrock.Framework": {
+              "target": "Package",
+              "version": "[0.1.60-alpha.g2d89f5dc41, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ReadAsyncRepro/1.0.0": {
+        "dependencies": {
+          "Bedrock.Framework": "0.1.60-alpha.g2d89f5dc41"
+        },
+        "runtime": {
+          "ReadAsyncRepro.dll": {}
+        }
+      },
+      "Bedrock.Framework/0.1.60-alpha.g2d89f5dc41": {
+        "dependencies": {
+          "System.IO.Pipelines": "4.7.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Bedrock.Framework.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.60.35117"
+          }
+        }
+      },
+      "System.IO.Pipelines/4.7.2": {}
+    }
+  },
+  "libraries": {
+    "ReadAsyncRepro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bedrock.Framework/0.1.60-alpha.g2d89f5dc41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QqSA3Ams7lZSiuQaiRK2P+5Aob7lzlHVCZpMXCfwvltSfBB3s12L9geJDFQhjh/zlSwvsrHyyOGgrjPw4tbAaQ==",
+      "path": "bedrock.framework/0.1.60-alpha.g2d89f5dc41",
+      "hashPath": "bedrock.framework.0.1.60-alpha.g2d89f5dc41.nupkg.sha512"
+    },
+    "System.IO.Pipelines/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rGIIhoY3lUdn9rWeuGdgeZZ0P+SpJ1wZI5g8TnXqgvuhFgUP7iP9Nt5FZebYInQZQxqnwjPxdYYBE5l/8PJmqQ==",
+      "path": "system.io.pipelines/4.7.2",
+      "hashPath": "system.io.pipelines.4.7.2.nupkg.sha512"
+    }
+  }
+}

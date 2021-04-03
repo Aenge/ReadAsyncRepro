@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Bedrock.Framework/0.1.60-alpha.g2d89f5dc41": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Bedrock.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Bedrock.Framework.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "System.IO.Pipelines/4.7.2": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bedrock.Framework/0.1.60-alpha.g2d89f5dc41": {
+      "sha512": "QqSA3Ams7lZSiuQaiRK2P+5Aob7lzlHVCZpMXCfwvltSfBB3s12L9geJDFQhjh/zlSwvsrHyyOGgrjPw4tbAaQ==",
+      "type": "package",
+      "path": "bedrock.framework/0.1.60-alpha.g2d89f5dc41",
+      "files": [
+        ".nupkg.metadata",
+        "bedrock.framework.0.1.60-alpha.g2d89f5dc41.nupkg.sha512",
+        "bedrock.framework.nuspec",
+        "lib/netcoreapp3.1/Bedrock.Framework.dll"
+      ]
+    },
+    "System.IO.Pipelines/4.7.2": {
+      "sha512": "rGIIhoY3lUdn9rWeuGdgeZZ0P+SpJ1wZI5g8TnXqgvuhFgUP7iP9Nt5FZebYInQZQxqnwjPxdYYBE5l/8PJmqQ==",
+      "type": "package",
+      "path": "system.io.pipelines/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/net461/System.IO.Pipelines.dll",
+        "ref/net461/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.7.2.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Bedrock.Framework >= 0.1.60-alpha.g2d89f5dc41"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\scott\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj",
+      "projectName": "ReadAsyncRepro",
+      "projectPath": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj",
+      "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\NuGet.Config",
+        "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://f.feedz.io/davidfowl/bedrockframework/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Bedrock.Framework": {
+            "target": "Package",
+            "version": "[0.1.60-alpha.g2d89f5dc41, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6y3lr8uKHP1T2gHbsZZeoqbb9K6hVfMrotC20RFNhnrDGCzUuXxhglr+QswGFoLn0RU8dS6R34JK0FhtiVL55w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scott\\source\\repos\\ReadAsyncRepro\\ReadAsyncRepro\\ReadAsyncRepro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scott\\.nuget\\packages\\bedrock.framework\\0.1.60-alpha.g2d89f5dc41\\bedrock.framework.0.1.60-alpha.g2d89f5dc41.nupkg.sha512",
+    "C:\\Users\\scott\\.nuget\\packages\\system.io.pipelines\\4.7.2\\system.io.pipelines.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
