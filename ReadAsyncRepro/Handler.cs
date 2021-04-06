@@ -24,7 +24,7 @@ namespace ReadAsyncRepro
             ProtocolReader protocolReader = connection.CreateReader();
             CustomProtocol customProtocol = new();
 
-            string message = "first\r\n";
+            string message = "first\n";
             Memory<byte> buffer = connection.Transport.Output.GetMemory(0x10)[..0x10];
             System.Text.Encoding.UTF8.GetBytes(message).CopyTo(buffer);
             
@@ -36,7 +36,7 @@ namespace ReadAsyncRepro
 
             protocolReader.Advance();
 
-            message = "second\r\n";
+            message = "second\n";
             while (true)
             {
                 try
